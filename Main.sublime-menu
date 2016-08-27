@@ -3,71 +3,72 @@
         "id": "help"
     },
     {
-        "id": "folders", "caption": "-"
+        "id": "folders", "caption": " "
     },
     {
-        "command": "build",
-        "caption": "Build"
-    },
-    {
-        "command": "save",
-        "caption": "Save"
-    },
-    {
-        "command": "clone_file",
-        "caption": "Clone"
-    },
-    {
-        "command": "jump_back",
-        "caption": "←"
-    },
-    {
-        "command": "jump_forward",
-        "caption": "→"
-    },
-    {
-        "command": "expand_selection",
-        "args": {
-            "to": "scope"
-        },
-        "caption": "Expand"
-    },
-    {
-        "command": "fold",
-        "caption": "Fold"
-    },
-    {
-        "command": "unfold_all",
-        "caption": "Unfold"
-    },
-    {
-        "caption": "1:1",
-        "command": "set_layout",
-        "args":
-        {
-            "cols": [0.0, 1.0],
-            "rows": [0.0, 1.0],
-            "cells": [[0, 0, 1, 1]]
-        }
-    },
-    {
-        "caption": "1:2",
-        "command": "set_layout",
-        "args":
-        {
-            "cols": [0.0, 0.5, 1.0],
-            "rows": [0.0, 1.0],
-            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-        }
-    },
-    {
-        "caption": "2:1",
-        "command": "set_layout",
-        "args":
-        {
-            "cols": [0.0, 1.0],
-            "rows": [0.0, 0.5, 1.0],
-            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] 
-        }
+        "caption": "Quick Options",
+        "id": "QuickOptions",
+        "children":
+        [
+            {
+                "command": "build",
+                "caption": "Build"
+            },
+            {
+                "command": "save",
+                "caption": "Save"
+            },
+            {
+                "command": "clone_file",
+                "caption": "Clone"
+            },
+            { "caption": "-" },
+            {
+                "command": "expand_selection",
+                "args": {
+                    "to": "scope"
+                },
+                "caption": "Expand"
+            },
+            {
+                "command": "fold",
+                "caption": "Fold"
+            },
+            {
+                "command": "unfold_all",
+                "caption": "Unfold"
+            },
+            { "caption": "-" },
+            {
+                "caption": "1:1",
+                "command": "set_layout",
+                "args":
+                {
+                    "cols": [0.0, 1.0],
+                    "rows": [0.0, 1.0],
+                    "cells": [[0, 0, 1, 1]]
+                }
+            },
+            {
+                "caption": "1:2",
+                "command": "set_layout",
+                "args":
+                {
+                    "cols": [0.0, 0.5, 1.0],
+                    "rows": [0.0, 1.0],
+                    "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
+                }
+            },
+            {
+                "caption": "2:1",
+                "command": "set_layout",
+                "args":
+                {
+                    "cols": [0.0, 1.0],
+                    "rows": [0.0, 0.5, 1.0],
+                    "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] 
+                }
+            }
+        ]
     }
 ]
