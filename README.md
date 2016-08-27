@@ -8,16 +8,29 @@ For the original idea please refer to:
 
 
 
-## Installation
+___
+## Windows Installation
 
-Clone the contents of this repository into the User/ folder of ST.
+Unzip [this file](https://github.com/evandrocoan/SublimeTextToolBar/archive/windows.zip) contents into the User/ folder of Sublime Text.
 
-For non portable linux installation you can use:
-```
-git clone --recursive https://github.com/evandrocoan/SublimeTextToolBar ~/.config/sublime-text-3/Packages/User
-```
 
-## Preview
+### Preview for the windows version
 
 ![ToolBar](http://i.imgur.com/hnek3r0.png)
+
+
+
+___
+## Linux/MAC Installation
+
+Unzip [this file](https://github.com/evandrocoan/SublimeTextToolBar/archive/master.zip) contents into the User/ folder of Sublime Text.
+
+
+### Preview for the Linux/Mac version
+
+![ToolBar](http://i.imgur.com/pAYIzb9.png)
+
+
+
+
 
