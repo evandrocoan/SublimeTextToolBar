@@ -5,57 +5,43 @@
     {
         "id": "folders", "caption": "-"
     },
-
     {
-        "command": "new_file",
-        "caption": ""},
+        "command": "build",
+        "caption": "Build"
+    },
     {
         "command": "save",
-        "caption": ""},
+        "caption": "Save"
+    },
     {
         "command": "clone_file",
-        "caption": "♋"},
+        "caption": "Clone"
+    },
     {
         "command": "jump_back",
-        "caption": "◀"},
+        "caption": "←"
+    },
     {
         "command": "jump_forward",
-        "caption": "▶"},
+        "caption": "→"
+    },
     {
         "command": "expand_selection",
         "args": {
             "to": "scope"
         },
-        "caption": "♒"
+        "caption": "Expand"
     },
     {
         "command": "fold",
-        "caption": "〽"
+        "caption": "Fold"
     },
     {
         "command": "unfold_all",
-        "caption": "〰"
+        "caption": "Unfold"
     },
     {
-        "command": "toggle_bookmark",
-        "caption": "★"
-    },
-    {
-        "command": "next_bookmark",
-        "caption": "➽"
-    },
-    {
-        "caption": "♊",
-        "command": "set_layout",
-        "args":
-        {
-            "cols": [0.0, 0.5, 1.0],
-            "rows": [0.0, 1.0],
-            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
-        }
-    },
-    {
-        "caption": "♈",
+        "caption": "1:1",
         "command": "set_layout",
         "args":
         {
@@ -65,17 +51,23 @@
         }
     },
     {
-        "command": "open_url",
-        "caption":"☢",
-        "args": {
-            "url": "https://github.com/SublimeText/Issues/issues"
+        "caption": "1:2",
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 0.5, 1.0],
+            "rows": [0.0, 1.0],
+            "cells": [[0, 0, 1, 1], [1, 0, 2, 1]]
         }
     },
     {
-        "command": "open_file",
-        "caption":"",
-        "args": {
-            "file": "${packages}/User/Preferences.sublime-settings"
+        "caption": "2:1",
+        "command": "set_layout",
+        "args":
+        {
+            "cols": [0.0, 1.0],
+            "rows": [0.0, 0.5, 1.0],
+            "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] 
         }
     }
 ]
