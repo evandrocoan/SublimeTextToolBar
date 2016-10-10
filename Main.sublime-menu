@@ -10,34 +10,13 @@
         "id": "QuickOptions",
         "children":
         [
-            {
-                "command": "build",
-                "caption": "Build"
-            },
-            {
-                "command": "save",
-                "caption": "Save"
-            },
-            {
-                "command": "clone_file",
-                "caption": "Clone"
-            },
+            { "command": "build", "caption": "Build" },
+            { "command": "save", "caption": "Save" },
+            { "command": "clone_file", "caption": "Clone" },
             { "caption": "-" },
-            {
-                "command": "expand_selection",
-                "args": {
-                    "to": "scope"
-                },
-                "caption": "Expand"
-            },
-            {
-                "command": "fold",
-                "caption": "Fold"
-            },
-            {
-                "command": "unfold_all",
-                "caption": "Unfold"
-            },
+            { "command": "expand_selection", "args": { "to": "scope" }, "caption": "Expand" },
+            { "command": "fold", "caption": "Fold" },
+            { "command": "unfold_all", "caption": "Unfold" },
             { "caption": "-" },
             {
                 "caption": "1:1",
