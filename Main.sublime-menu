@@ -3,9 +3,6 @@
         "id": "help"
     },
     {
-        "id": "folders", "caption": " "
-    },
-    {
         "caption": "Quick Options",
         "id": "QuickOptions",
         "children":
